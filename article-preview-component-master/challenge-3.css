@@ -1,0 +1,196 @@
+body{
+
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.img-container{
+
+   position: absolute;
+   margin-top: 12%;
+
+}
+
+.text-container{
+
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 12%;
+  margin-left: 535px;
+  height: 416px;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+.container{
+
+    margin-right: 11%; 
+    border: 1px solid white;
+    
+    
+}
+
+.text-1{
+
+ font-weight: bold;
+ font-size: 2.3rem;
+ text-align:justify;
+
+}
+
+.avatar{
+
+ position: absolute;
+ width: 70px;
+ height: 70px;
+ margin-top:5px;
+ margin-left: 1px;
+
+}
+
+.avatar img{
+
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 2rem;
+
+} 
+
+.michelle{
+
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 13%;
+  
+
+}
+
+.date{
+
+   position: absolute;
+   color: hsl(212, 23%, 69%); 
+   bottom: -10px; 
+}
+
+.text-2{
+
+  color: hsl(212, 23%, 69%);
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: justify;
+
+}
+
+.svg-container{
+
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 85%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid   hsl(212, 23%, 69%);
+    border-radius: 1.5rem;
+    pointer-events: none;
+    
+}
+
+.svg-container svg{
+
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    
+}
+
+.share-container{
+    
+    position: absolute;
+    width: 200px;
+    margin-left: 77.6%;
+    margin-top: 34.2%;  
+    pointer-events: all;
+    display: none;
+}
+
+.bubble{
+
+ width: 28px;
+ height: 28px;
+ border: 1px solid;
+ border-radius: .8rem;
+ pointer-events: all;
+
+}
+
+
+.share-container .share{
+  
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.burbuja{
+
+    position: relative;
+    background-color: hsl(217, 19%, 35%);
+    padding: 20px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.burbuja::after{
+
+   content: "";
+   display: block;
+   position: absolute;
+   top: 40px;
+   margin-left: 60px;
+   
+   width: 0;
+   height: 0;
+   border-top: 10px solid hsl(217, 19%, 35%);
+   border-bottom: 10px solid transparent;
+   border-left: 15px solid transparent;
+   border-right: 10px solid transparent;
+   
+}
+
+h6{
+ position: absolute;
+ bottom: 2px;
+ font-size: 20px;
+ margin-left: -5px;
+
+
+}
+
+.twitter{
+
+    position: absolute;
+    margin-left: 60%;
+    bottom: 30%;
+
+}
+
+.face{
+
+    position: absolute;
+    margin-left: 45%;
+    bottom: 30%;
+    
+}
+
+.pin{
+
+    position: absolute;
+    margin-left: 75%;
+    bottom: 30%; 
+} 

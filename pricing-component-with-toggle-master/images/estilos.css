@@ -1,0 +1,124 @@
+body{
+
+   background-color: hsl(240, 78%, 98%);
+   font-size: 15px;
+   font-family:'Montserrat', sans-serif; 
+   font-weight: 700;
+}
+
+.content{
+
+   position: relative;
+   margin-left: 18%;
+   margin-top: 6%;
+   text-align: center;
+   
+  
+}
+
+.mid-card{
+  
+    position: relative;
+   background-color: hsl(237, 63%, 64%);
+   color: white;
+   padding-bottom: 20px ;
+
+}
+
+.mid-card button {
+
+  background-color: white;
+  color: hsl(237, 63%, 64%);
+  font-weight: 700;
+  position: relative;
+ 
+}
+
+.card-text{
+  
+   font-size: 3rem;
+
+}
+  
+h5{
+
+    font-weight: bolder;
+}
+
+.top-card{
+  position: relative;
+    z-index: 1;
+}
+
+.top-card button {
+
+  background-color: hsl(237, 63%, 64%);
+  color: white;
+  font-weight: 700;
+  
+
+}
+
+.pricing{
+
+  position: relative;
+   left: 35%;
+  padding-top: 2%;
+
+}
+
+.pricing h3 {
+
+ font-weight: 700;
+
+}
+
+.anual{
+   position: absolute;
+  margin-left: 120px;
+  margin-top: 10px;
+  color:  hsl(233, 13%, 49%)
+
+}
+
+.mensual{
+
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 10px;
+    color:  hsl(233, 13%, 49%)
+}
+
+.custom-switch{
+
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 10px;
+    
+}
+
+.ul-card {
+
+    position: relative;
+    color: hsl(237, 63%, 64%);
+}   
+
+.first{
+
+  position: absolute;
+  left: 75%;
+  top: 1%;
+  z-index: 0;
+
+}
+
+.second{
+
+    position: absolute;
+    z-index: 0;
+    margin-top: -200px;
+}
+
+/*after toogle*/ 
+
+ 
